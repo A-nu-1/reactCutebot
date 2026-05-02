@@ -1,0 +1,45 @@
+
+
+      .chat-app {
+        background-color: rgb(48, 45, 46);
+        background: linear-gradient(135deg, rgb(185, 139, 178) 0%, rgb(130, 159, 218) 100%);
+        max-width: 600px;
+        height: 100%;
+       
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 10px;
+        overflow: hidden;
+       
+      }
+      .app-container {
+         background: linear-gradient(45deg,
+            red 0%,
+            orange 25%,
+            yellow 30%, 
+            green 45%, 
+            rgb(35, 109, 174) 60%,
+            rgb(180, 66, 211) 75%,
+            rgb(232, 12, 177) 100%
+      ); 
+        padding: 5px;
+        box-sizing: border-box;
+        height: 100vh;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: 200% 200%;
+        animation: anim 3s linear infinite;
+      }
+  
+      @keyframes anim {
+        0% {
+          background-position: 200% 0;
+        }
+        100% {
+          background-position: 0 0;
+        }
+      }
